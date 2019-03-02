@@ -1,0 +1,57 @@
+body {
+  background: #f7f8fb;
+}
+
+.main {
+  padding: 40px;
+}
+
+.employee {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.employee:hover {
+  box-shadow: 1px 8px 25px #e2e2e2;
+}
+
+.employee img {
+  height: 32px;
+  border-radius: 25px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.name,
+.email,
+.text {
+  font-size: 14px;
+}
+
+.text {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.grey {
+  color: #bbb;
+}
+
+.header {
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.load-more {
+  padding: 30px;
+}
